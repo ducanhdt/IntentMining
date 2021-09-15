@@ -1,38 +1,23 @@
-import tensorflow_hub as hub
+from sentence_transformers import SentenceTransformer
 
 class SentenceEmbedding(object):
     """docstring for SentenceEmbedding"""
 
-    def __init__(self):
-        self.model = None
-        self.loadModel()
+    def __init__(self,path='paraphrase-multilingual-mpnet-base-v2'):
+        self.model = self.loadModel(path)
 
-    def loadModel(self):
+    def loadModel(self,path):
         if self.model is None:
             print('Loading Tensorflow model....')
-            model_url = "https://tfhub.dev/google/universal-sentence-encoder/4"
-            self.model = hub.load(model_url)
+            model = SentenceTransformer(path)
             print('Model Loaded.')
-
+            return model
     def embed(self, input_):
-        embedding = self.model(input_)
-        question_embeddings = embedding.numpy().tolist()
+        embedding = model.encode(input_,convert_to_tensor=True)
+        question_embeddings = embedding.cpu().numpy().tolist()
         return question_embeddings
 
 obj = SentenceEmbedding()
 def getEmbeddings(data):
-    vector = []
-    start = 0
-    step = 10000
-
-    for i in range(int(len(data) / step)):
-        samples = data[start:start + step]
-        start += step
-        features = obj.embed(samples)
-        vector += features
-
-    if len(data) % step != 0:
-        samples = data[start:]
-        features = obj.embed(samples)
-        vector += features
+    obj.embed(data)
     return vector

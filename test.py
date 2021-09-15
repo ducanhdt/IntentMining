@@ -5,8 +5,8 @@ import os
 from evaluation import EvaluateDataset
 import glob
 
-DATA_PATH = "ProcessedData\\"
-RESULT_PATH = "NewResults\\"
+DATA_PATH = "ProcessedData/"
+RESULT_PATH = "NewResults/"
 
 def generate_parameters_dbscan():
     param_grid = {
@@ -122,8 +122,9 @@ def generate_combined_result(corpus, directory) :
     return output
 
 if __name__ == '__main__':
-    corpus_lists = {'Airlines', 'AskUbuntuCorpus', 'ChatbotCorpus', 'WebApplicationsCorpus',
-                   'FinanceData', 'ATIS', 'PersonalAssistant'}
+    # corpus_lists = {'Airlines', 'AskUbuntuCorpus', 'ChatbotCorpus', 'WebApplicationsCorpus',
+    #                'FinanceData', 'ATIS', 'PersonalAssistant'}
+    corpus_lists = ['ATIS']
     algorithms = ['ITER_DBSCAN', 'DBSCAN', 'HDBSCAN']
 
     for c in corpus_lists:
