@@ -23,7 +23,10 @@ class EvaluateDataset(object):
         self.target_column = target_column
         self.filetype = filetype
         self.df = None
+    def preprocess_text(self,text):
+        text = text.lower().strip()
 
+        return text
     def load_data(self):
         """
         Load data into a data frame (using filename)
@@ -45,6 +48,7 @@ class EvaluateDataset(object):
         :return:
         """
         data = self.df[self.text_column].values.tolist()
+        data = [self.preprocess_text(t) for t in data]
         feature = getEmbeddings(data)
         self.df['features'] = feature
 
@@ -111,14 +115,14 @@ class EvaluateDataset(object):
                     intent = key
             if len(tmp_df) == 0: continue
             purity = round(cur_value / len(tmp_df), 2)
-            purities.append(purity)
-            total += purity
             if purity >= 0.5:
+                purities.append(purity)
+                total += purity
                 self.df.loc[self.df.cluster_ids == cluster_id, 'representative_label'] = intent
             else:
                 noise_count += 1
 
-        return noise_count
+        return noise_count, total/len(purities)
 
     """Propagating labels to the nearby points
     """
@@ -168,7 +172,7 @@ class EvaluateDataset(object):
                     continue
 
                 time_taken = time() - start_time
-                noise_count = self.generate_labels()
+                noise_count,purity = self.generate_labels()
 
                 if 2 > len(self.df[self.df['representative_label'] != 'None']['representative_label'].unique()):
                     continue
@@ -178,11 +182,11 @@ class EvaluateDataset(object):
                 num_clusters = len(list(set(self.df.loc[self.df.cluster_ids != 'None']['cluster_ids'].values.tolist())))
                 true_intent = self.df[self.target_column].values.tolist()
                 predicted_intent = self.df['predictedIntent'].values.tolist()
-                h_score = round(metrics.homogeneity_score(true_intent, predicted_intent), 2)
-                c_score = round(metrics.completeness_score(true_intent, predicted_intent), 2)
-                nmf = round(metrics.normalized_mutual_info_score(true_intent, predicted_intent), 2)
-                amf = round(metrics.adjusted_mutual_info_score(true_intent, predicted_intent), 2)
-                ars = round(metrics.adjusted_rand_score(true_intent, predicted_intent), 2)
+                # h_score = round(metrics.homogeneity_score(true_intent, predicted_intent), 2)
+                # c_score = round(metrics.completeness_score(true_intent, predicted_intent), 2)
+                # nmf = round(metrics.normalized_mutual_info_score(true_intent, predicted_intent), 2)
+                # amf = round(metrics.adjusted_mutual_info_score(true_intent, predicted_intent), 2)
+                # ars = round(metrics.adjusted_rand_score(true_intent, predicted_intent), 2)
 
                 le = LabelEncoder()
 
@@ -197,14 +201,16 @@ class EvaluateDataset(object):
 
                 param = all_parameters[i]
                 param['time'] = round(time_taken, 2)
+                param['num_example'] = len(self.df)
                 param['percentage_labelled'] = per_labelled
                 param['clusters'] = num_clusters
                 param['noisy_clusters'] = noise_count
-                param['homogeneity_score'] = h_score
-                param['completeness_score'] = c_score
-                param['normalized_mutual_info_score'] = nmf
-                param['adjusted_mutual_info_score'] = amf
-                param['adjusted_rand_score'] = ars
+                param['true_label_ratio'] = purity
+                # param['homogeneity_score'] = h_score
+                # param['completeness_score'] = c_score
+                # param['normalized_mutual_info_score'] = nmf
+                # param['adjusted_mutual_info_score'] = amf
+                # param['adjusted_rand_score'] = ars
                 param['accuracy'] = round(accuracy, 3) * 100.0
                 param['precision'] = round(precision, 3) * 100.0
                 param['recall'] = round(recall, 3) * 100.0
@@ -213,6 +219,7 @@ class EvaluateDataset(object):
 
                 param['intents'] = len(
                     self.df.loc[self.df['representative_label'] != 'None']['representative_label'].value_counts())
+                param['origin_intent'] = len(self.df[self.target_column].value_counts())
                 param_results.append(param)
             except Exception as e:
                 print(str(e))

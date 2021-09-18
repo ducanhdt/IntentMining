@@ -5,8 +5,8 @@ import os
 from evaluation import EvaluateDataset
 import glob
 
-DATA_PATH = "ProcessedData/"
-RESULT_PATH = "NewResults/"
+DATA_PATH = "data/"
+RESULT_PATH = "result/"
 
 def generate_parameters_dbscan():
     param_grid = {
@@ -44,9 +44,9 @@ def generate_parameters_hdbscan():
 
 def generate_parameters_iter_dbscan():
     param_grid = {
-        "distance": [0.09, 0.12],
-        "max_iteration": list(range(10, 15,5)),
-        "minimum_samples": list(range(8, 20,5))
+        "distance": [0.09, 0.12, 0.3],
+        "max_iteration": list(range(10, 15)),
+        "minimum_samples": list(range(8, 20))
     }
     keys, values = zip(*param_grid.items())
     all_parameters = []
@@ -60,8 +60,8 @@ def generate_parameters_iter_dbscan():
 
 def generate_combined_result(corpus, directory) :
     experiments = glob.glob(directory + '/*')
-    df = pd.read_excel('ProcessedData/' + corpus + '.xlsx')
-    total_intents = len(df['intent'].value_counts())
+    df = pd.read_csv(DATA_PATH + corpus + '.csv')
+    total_intents = len(df['label'].value_counts())
     output = []
     for exp in experiments:
         df = pd.read_excel(exp)
@@ -124,12 +124,20 @@ def generate_combined_result(corpus, directory) :
 if __name__ == '__main__':
     # corpus_lists = {'Airlines', 'AskUbuntuCorpus', 'ChatbotCorpus', 'WebApplicationsCorpus',
     #                'FinanceData', 'ATIS', 'PersonalAssistant'}
-    corpus_lists = ['ATIS']
+    corpus_lists = [
+        # "61139b4729ef9b70788ff84c", # : TEST DATA - VCB Cũ
+        # "6114ca6f8c9d2ad4f57802b3", # : TLA
+        "6114cb708c9d2ac9d278345a", # : VCB mới
+        # "6113a52429ef9bd2aa9086db", # : TEST DATA - POC VIETINBANK
+        # "6113a30e29ef9bfc53907c6b", # : TEST DATA - VOICE BOT BIG
+        "6113a71729ef9b297690a5b3", # : TEST DATA - VOICEBOT Sacombank
+]
+
     algorithms = ['ITER_DBSCAN']
 
     for c in corpus_lists:
         print("Processing corpus ...", c)
-        evaluate = EvaluateDataset(DATA_PATH + c + '.xlsx', filetype='xlsx', text_column='data', target_column='intent')
+        evaluate = EvaluateDataset(DATA_PATH + c + '.csv', filetype='csv', text_column='text', target_column='label')
         for algo in algorithms:
             param_results = None
             if algo == 'DBSCAN':
