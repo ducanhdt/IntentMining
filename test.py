@@ -44,9 +44,9 @@ def generate_parameters_hdbscan():
 
 def generate_parameters_iter_dbscan():
     param_grid = {
-        "distance": [0.09, 0.12, 0.15, 0.20, 0.30],
-        "max_iteration": list(range(10, 15)),
-        "minimum_samples": list(range(8, 20))
+        "distance": [0.09, 0.12],
+        "max_iteration": list(range(10, 15,5)),
+        "minimum_samples": list(range(8, 20,5))
     }
     keys, values = zip(*param_grid.items())
     all_parameters = []
@@ -59,14 +59,14 @@ def generate_parameters_iter_dbscan():
     return all_parameters
 
 def generate_combined_result(corpus, directory) :
-    experiments = glob.glob(directory + '\\*')
-    df = pd.read_excel('ProcessedData\\' + corpus + '.xlsx')
+    experiments = glob.glob(directory + '/*')
+    df = pd.read_excel('ProcessedData/' + corpus + '.xlsx')
     total_intents = len(df['intent'].value_counts())
     output = []
     for exp in experiments:
         df = pd.read_excel(exp)
         if "_parameters.xlsx" not in exp: continue
-        algo_name = exp.split('\\')[-1].replace('_parameters.xlsx', '')
+        algo_name = exp.split('/')[-1].replace('_parameters.xlsx', '')
         try:
             nmi = round(np.mean(df['normalized_mutual_info_score']), 2)
         except:
@@ -125,7 +125,7 @@ if __name__ == '__main__':
     # corpus_lists = {'Airlines', 'AskUbuntuCorpus', 'ChatbotCorpus', 'WebApplicationsCorpus',
     #                'FinanceData', 'ATIS', 'PersonalAssistant'}
     corpus_lists = ['ATIS']
-    algorithms = ['ITER_DBSCAN', 'DBSCAN', 'HDBSCAN']
+    algorithms = ['ITER_DBSCAN']
 
     for c in corpus_lists:
         print("Processing corpus ...", c)
@@ -149,16 +149,16 @@ if __name__ == '__main__':
                 parameter_df = pd.DataFrame.from_dict(param_results)
 
 
-                directory = RESULT_PATH + c + "\\"
+                directory = RESULT_PATH + c + "/"
                 if not os.path.exists(directory):
                     os.makedirs(directory)
 
                 parameter_df.to_excel(directory + algo + '_parameters.xlsx', index=False)
-            output = generate_combined_result(c, RESULT_PATH + c + "\\")
+            output = generate_combined_result(c, RESULT_PATH + c + "/")
             stat_df = pd.DataFrame(output, columns=['corpus', 'algo_name', 'total_intents', 'max intents found',
                                                     'minimum cluster count', 'average cluster count',
                                                     'avg nmi', 'max nmi', 'avg ars', 'max ars', 'avg acc', 'max acc',
                                                     'f1 score', 'max f1 score'])
-            stat_df.to_excel(RESULT_PATH + c + "\\stat.xlsx", index=False)
+            stat_df.to_excel(RESULT_PATH + c + "/stat.xlsx", index=False)
 
 
