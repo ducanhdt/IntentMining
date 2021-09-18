@@ -1,0 +1,403 @@
+text,label
+ thanh toán hôm qua rồi,Step2_Đã thanh toán
+ thanh toán mấy hôm nay rồi,Step2_Đã thanh toán
+ thanh toán hết rồi mà,Step2_Đã thanh toán
+ thanh toán từ tuần trước rồi,Step2_Đã thanh toán
+ chuyển rồi em ơi,Step2_Đã thanh toán
+ chị chuyển rồi nha,Step2_Đã thanh toán
+ chuyển khoản thanh toán rồi nha,Step2_Đã thanh toán
+ mình thanh toán xong rồi mà nhỉ,Step2_Đã thanh toán
+ mình trả từ hôm có tin nhắn rồi,Step2_Đã thanh toán
+ mình thanh toán xong xuôi hết rồi ấy,Step2_Đã thanh toán
+ trả rồi nha bạn,Step2_Đã thanh toán
+ đóng rồi nhé em,Step2_Đã thanh toán
+ trả xong rồi sao cứ gọi miết vậy,Step2_Đã thanh toán
+ trả hết rồi cứ gọi hoài nhỉ,Step2_Đã thanh toán
+ thanh toán rồi nhé,Step2_Đã thanh toán
+ chị thanh toán hôm nọ rồi mà em,Step2_Đã thanh toán
+ đóng rồi gọi gì lắm thế,Step2_Đã thanh toán
+ anh trả rồi đừng gọi nữa,Step2_Đã thanh toán
+ thanh toán rồi,Step2_Đã thanh toán
+ thanh toán rồi mà,Step2_Đã thanh toán
+ đóng tiền rồi mà,Step2_Đã thanh toán
+ sáng chuyển khoản rồi,Step2_Đã thanh toán
+ chuyển tiền rồi mà,Step2_Đã thanh toán
+ thanh toán dùm rồi mà,Step2_Đã thanh toán
+ đã thanh toán rồi sao cứ gọi thế,Step2_Đã thanh toán
+ không biết nha,Step1_2_Sai KH_người thân
+ tôi không biết,Step1_2_Sai KH_người thân
+" không, tôi là    cơ",Step1_2_Sai KH_người thân
+ nhầm số rồi ấy,Step1_2_Sai KH_người thân
+ lộn rồi,Step1_2_Sai KH_người thân
+ nhầm rồi ấy,Step1_2_Sai KH_người thân
+ không nhé,Step1_2_Sai KH_người thân
+ không em nhé,Step1_2_Sai KH_người thân
+ không phải nhé em ơi,Step1_2_Sai KH_người thân
+ không phải anh,Step1_2_Sai KH_người thân
+ không phải chị,Step1_2_Sai KH_người thân
+ sai rồi ạ,Step1_2_Sai KH_người thân
+ nhầm số rồi nhé,Step1_2_Sai KH_người thân
+ dạ nhầm số rồi chị nhé,Step1_2_Sai KH_người thân
+ dạ nhầm rồi ạ,Step1_2_Sai KH_người thân
+ nhầm rồi ạ,Step1_2_Sai KH_người thân
+ không phải ạ,Step1_2_Sai KH_người thân
+ phiền ghê,Step1_2_Sai KH_người thân
+ đã bảo không phải rồi gọi nhiều thế,Step1_2_Sai KH_người thân
+ không phải mình,Step1_2_Sai KH_người thân
+ nghe lạ thế,Step1_2_Sai KH_người thân
+ chẳng quen,Step1_2_Sai KH_người thân
+ không biết đâu,Step1_2_Sai KH_người thân
+ ai nhờ?,Step1_2_Sai KH_người thân
+ không nhớ nữa,Step1_2_Sai KH_người thân
+ mình không quen,Step1_2_Sai KH_người thân
+ lộn số rồi nha,Step1_2_Sai KH_người thân
+ nhầm máy rồi nha,Step1_2_Sai KH_người thân
+ không phải đâu,Step1_2_Sai KH_người thân
+ không phải em ơi,Step1_2_Sai KH_người thân
+ nhầm rồi em ơi,Step1_2_Sai KH_người thân
+ chẳng quen ai vậy cả,Step1_2_Sai KH_người thân
+ có biết đâu,Step1_2_Sai KH_người thân
+ có quen đâu,Step1_2_Sai KH_người thân
+ đã bảo không biết rồi,Step1_2_Sai KH_người thân
+ đã bảo không phải rồi,Step1_2_Sai KH_người thân
+ gọi nhiều quá,Step1_2_Sai KH_người thân
+ yêu cầu gỡ số này ra khỏi hệ thống,Step1_2_Sai KH_người thân
+ nhầm máy rồi nhé,Step1_2_Sai KH_người thân
+" không biết, sao cứ gọi thế",Step1_2_Sai KH_người thân
+ đừng làm phiền,Step1_2_Sai KH_người thân
+ số mới mua,Step1_2_Sai KH_người thân
+ không quen,Step1_2_Sai KH_người thân
+ không biết,Step1_2_Sai KH_người thân
+ không phải nhé em,Step1_2_Sai KH_người thân
+ nhầm máy rồi em ơi,Step1_2_Sai KH_người thân
+ nhầm số rồi ạ,Step1_2_Sai KH_người thân
+ gọi nhầm rồi nha bạn,Step1_2_Sai KH_người thân
+ gọi nhầm nhé,Step1_2_Sai KH_người thân
+ nhầm rồi nha,Step1_2_Sai KH_người thân
+ bạn gọi nhầm rồi nha,Step1_2_Sai KH_người thân
+ sai số rồi em ơi,Step1_2_Sai KH_người thân
+ chị gọi nhầm số rồi nhé,Step1_2_Sai KH_người thân
+ bạn gọi nhầm số rồi nhé ạ,Step1_2_Sai KH_người thân
+ nhầm số rồi em,Step1_2_Sai KH_người thân
+ nhầm số em ơi,Step1_2_Sai KH_người thân
+ nhầm rồi em,Step1_2_Sai KH_người thân
+ gọi nhầm người rồi bạn ơi,Step1_2_Sai KH_người thân
+ bạn ơi nhầm số rùi nha,Step1_2_Sai KH_người thân
+ dạ nhầm số rồi chị ơi,Step1_2_Sai KH_người thân
+ không phải anh nhé em,Step1_2_Sai KH_người thân
+ không phải chị nha,Step1_2_Sai KH_người thân
+ không phải nha em,Step1_2_Sai KH_người thân
+ em gọi sai số rồi,Step1_2_Sai KH_người thân
+ không nhầm người rồi em,Step1_2_Sai KH_người thân
+ Không nha,Step1_2_Sai KH_người thân
+" Đã bảo không phải rồi, gọi nhiều thế",Step1_2_Sai KH_người thân
+ Không. Nhầm máy rồi nhé,Step1_2_Sai KH_người thân
+ Không phải nhé,Step1_2_Sai KH_người thân
+ Nhầm rồi nhé,Step1_2_Sai KH_người thân
+ Phiền quá,Step1_2_Sai KH_người thân
+ Nhầm máy rồi,Step1_2_Sai KH_người thân
+ không em ơi,Step1_2_Sai KH_người thân
+ lộn số rồi,Step1_2_Sai KH_người thân
+ nhầm rồi,Step1_2_Sai KH_người thân
+ không phải,Step1_2_Sai KH_người thân
+ tôi không biết ai tên,Step1_2_Sai KH_người thân
+ không phải tôi,Step1_2_Sai KH_người thân
+" không phải em, mà có gì thế",Step1_2_Sai KH_người thân
+" đừng gọi nữa, nhầm số rồi",Step1_2_Sai KH_người thân
+" không, làm sao để bên em không làm phiền nữa",Step1_2_Sai KH_người thân
+" Tôi đã bảo nhầm số mà sao ngân hàng gọi hoài vậy, yêu cầu hủy số điện thoại của tôi ngay.",Step1_2_Sai KH_người thân
+" Lộn số rồi, đề nghị ngân hàng không gọi làm phiền tôi nữa.",Step1_2_Sai KH_người thân
+ nói chuyện sau  nhé,Step1_Bận_chưa xác định
+ lát gọi sau nhé,Step1_Bận_chưa xác định
+ tớ đang bận chút,Step1_Bận_chưa xác định
+ anh đang bận rồi,Step1_Bận_chưa xác định
+ chị đang bận rồi,Step1_Bận_chưa xác định
+ mình đang bận chút nha,Step1_Bận_chưa xác định
+ đang không tiện nghe,Step1_Bận_chưa xác định
+ bây giờ không nghe điện thoại được,Step1_Bận_chưa xác định
+ đang đi làm,Step1_Bận_chưa xác định
+ chốc gọi lại nhé,Step1_Bận_chưa xác định
+ lúc khác gọi lại,Step1_Bận_chưa xác định
+ không có ở đây,Step1_Bận_chưa xác định
+ mình nghe dùm,Step1_Bận_chưa xác định
+ bao nhiêu việc,Step1_Bận_chưa xác định
+ thôi khỏi bận lắm,Step1_Bận_chưa xác định
+ đang bận rồi,Step1_Bận_chưa xác định
+ đang bận xíu ạ,Step1_Bận_chưa xác định
+ chút nữa gọi lại nhé,Step1_Bận_chưa xác định
+ để khi khác ạ,Step1_Bận_chưa xác định
+ đang ở ngoài,Step1_Bận_chưa xác định
+ đang học,Step1_Bận_chưa xác định
+ đang đi đường,Step1_Bận_chưa xác định
+ đang không rảnh nhé,Step1_Bận_chưa xác định
+ gọi lại sau nhé,Step1_Bận_chưa xác định
+ 30 phút nữa gọi lại nhé,Step1_Bận_chưa xác định
+ bận rồi nha,Step1_Bận_chưa xác định
+ đang bận nhé,Step1_Bận_chưa xác định
+ mình bận rồi nhé,Step1_Bận_chưa xác định
+ đi đâu rồi ấy,Step1_Bận_chưa xác định
+ đi ra ngoài rồi,Step1_Bận_chưa xác định
+ mình nghe hộ thôi nhé,Step1_Bận_chưa xác định
+ đang bận nha,Step1_Bận_chưa xác định
+ nói chuyện sau nhé,Step1_Bận_chưa xác định
+ đang bận xíu,Step1_Bận_chưa xác định
+" bận lắm em ơi, gọi lại sau đi",Step1_Bận_chưa xác định
+ xin lỗi đang bận nhé,Step1_Bận_chưa xác định
+ chị ra ngoài xíu có gì tí em gọi lại nghe em,Step1_Bận_chưa xác định
+ Mình bận xíu nha,Step1_Bận_chưa xác định
+ đang bận em ơi,Step1_Bận_chưa xác định
+ gọi lại sau nha anh đang bận lắm,Step1_Bận_chưa xác định
+ em ơi bận lắm gọi lại sau đi,Step1_Bận_chưa xác định
+ chị đang bận lắm,Step1_Bận_chưa xác định
+ lát gọi lại nhé đang bận lắm,Step1_Bận_chưa xác định
+ so ri chị đang bận,Step1_Bận_chưa xác định
+ đi ra ngoài rồi có gì bạn gọi lại sau nhé,Step1_Bận_chưa xác định
+ sau gọi lại đi em anh đang có việc ra ngoài chút,Step1_Bận_chưa xác định
+ anh đang có việc nên không nghe được bây giờ nhé,Step1_Bận_chưa xác định
+ anh đang ra ngoài chút rồi nhá,Step1_Bận_chưa xác định
+ mình bận rồi nha,Step1_Bận_chưa xác định
+ bận rồi nhé,Step1_Bận_chưa xác định
+ chị bận xíu nha em,Step1_Bận_chưa xác định
+ chưa rảnh em ơi,Step1_Bận_chưa xác định
+ anh đang bận,Step1_Bận_chưa xác định
+ thôi khỏi anh bận lắm,Step1_Bận_chưa xác định
+ anh bận lắm,Step1_Bận_chưa xác định
+ bận rồi lúc khác gọi lại nha,Step1_Bận_chưa xác định
+ 30 phút nữa gọi lại nha,Step1_Bận_chưa xác định
+ đang không rảnh,Step1_Bận_chưa xác định
+ bận nha,Step1_Bận_chưa xác định
+ bận rồi em ơi khi khác nhé,Step1_Bận_chưa xác định
+ đang đi học,Step1_Bận_chưa xác định
+ Khi khác nhé,Step1_Bận_chưa xác định
+ Đang dở tay,Step1_Bận_chưa xác định
+ Đang đi ra ngoài,Step1_Bận_chưa xác định
+ Đang ở ngoài đường,Step1_Bận_chưa xác định
+ Nhiều việc lắm,Step1_Bận_chưa xác định
+ Bận,Step1_Bận_chưa xác định
+ Đang bận lắm,Step1_Bận_chưa xác định
+ Lúc khác gọi lại nhé,Step1_Bận_chưa xác định
+ Đang bận rồi nhé,Step1_Bận_chưa xác định
+ không rảnh em ơi,Step1_Bận_chưa xác định
+ chị không rảnh nhé,Step1_Bận_chưa xác định
+ bận rồi em ơi,Step1_Bận_chưa xác định
+" đang bận, gọi lại sau",Step1_Bận_chưa xác định
+ bận rồi,Step1_Bận_chưa xác định
+ đang họp,Step1_Bận_chưa xác định
+ đang chạy xe,Step1_Bận_chưa xác định
+ đang ngoài đường,Step1_Bận_chưa xác định
+ gọi lại sau đi,Step1_Bận_chưa xác định
+ còn bao nhiêu nữa?,Step2_Hỏi lại số tiền
+ em xem giúp còn bao nhiêu?,Step2_Hỏi lại số tiền
+ còn bao nhiêu tiền nữa?,Step2_Hỏi lại số tiền
+ số tiền là bao nhiêu,Step2_Hỏi lại số tiền
+ còn nhiều không?,Step2_Hỏi lại số tiền
+ bao nhiêu cơ?,Step2_Hỏi lại số tiền
+ kiểm tra lại còn phải thanh toán bao nhiêu,Step2_Hỏi lại số tiền
+ kiểm tra giúp còn bao nhiêu tiền nữa,Step2_Hỏi lại số tiền
+ còn bao nhiêu?,Step2_Hỏi lại số tiền
+ số tiền thanh toán kì này bao nhiêu?,Step2_Hỏi lại số tiền
+ bao nhiêu tiền em,Step2_Hỏi lại số tiền
+ bao nhiêu nhỉ?,Step2_Hỏi lại số tiền
+ mình còn bao nhiêu nữa?,Step2_Hỏi lại số tiền
+ mình cần thanh toán bao nhiêu?,Step2_Hỏi lại số tiền
+ bao nhiêu tiền ấy nhỉ,Step2_Hỏi lại số tiền
+ chắc ít hơn tháng trước bạn nhỉ,Step2_Hỏi lại số tiền
+ của chị tháng này hết bao nhiêu thế chị nghe không rõ,Step2_Hỏi lại số tiền
+ tháng này anh phải đóng bao nhiêu em nhỉ,Step2_Hỏi lại số tiền
+ đợt này anh phải thanh toán bao nhiêu tiền vậy em,Step2_Hỏi lại số tiền
+ tháng này anh phải đóng mấy thế em,Step2_Hỏi lại số tiền
+ chừng nào đấy,Step2_Hỏi lại số tiền
+ phải trả bao nhiêu em,Step2_Hỏi lại số tiền
+ bao nhiêu hả em,Step2_Hỏi lại số tiền
+ hết nhiều không em ơi,Step2_Hỏi lại số tiền
+ hết nhiều không em,Step2_Hỏi lại số tiền
+ tháng này của anh hết nhiều không,Step2_Hỏi lại số tiền
+ Của mình bao nhiêu tiền?,Step2_Hỏi lại số tiền
+ Mình phải thanh toán bao nhiêu nhỉ,Step2_Hỏi lại số tiền
+ tháng này trả bao nhiêu em,Step2_Hỏi lại số tiền
+ tháng này phải trả nhiều không,Step2_Hỏi lại số tiền
+ nhiều không,Step2_Hỏi lại số tiền
+ bao nhiêu vậy em,Step2_Hỏi lại số tiền
+ hết bao nhiêu thế bạn ơi,Step2_Hỏi lại số tiền
+ hết bao nhiêu vậy bạn ơi,Step2_Hỏi lại số tiền
+ của mình hết bao nhiêu bạn,Step2_Hỏi lại số tiền
+ bao nhiêu bạn,Step2_Hỏi lại số tiền
+ đợt này trả nhiều không,Step2_Hỏi lại số tiền
+ tháng này trả bao nhiêu,Step2_Hỏi lại số tiền
+ của anh khoảng bao nhiêu nhỉ,Step2_Hỏi lại số tiền
+ bao nhiêu thế em,Step2_Hỏi lại số tiền
+" biết rồi, mà bao nhiêu tiền",Step2_Hỏi lại số tiền
+ số tiền là nhiêu vậy,Step2_Hỏi lại số tiền
+ bao nhiêu tiền,Step2_Hỏi lại số tiền
+ nhiều không em,Step2_Hỏi lại số tiền
+ ừ để lúc khác thanh toán nhé,Step2_Hẹn thanh toán
+ có tiền sẽ thanh toán mà,Step2_Hẹn thanh toán
+ cuối tuần được không,Step2_Hẹn thanh toán
+ đợi mấy hôm nữa nhé,Step2_Hẹn thanh toán
+ mấy nữa có tiền thì thanh toán,Step2_Hẹn thanh toán
+ ừ sẽ thanh toán,Step2_Hẹn thanh toán
+ có tiền tôi thanh toán gọi lắm vậy,Step2_Hẹn thanh toán
+ nói nhiều thế có tiền anh thanh toán liền mà,Step2_Hẹn thanh toán
+ ok có lương anh thanh toán ngay,Step2_Hẹn thanh toán
+ ừ được đợi có tiền anh gửi,Step2_Hẹn thanh toán
+ ok mấy hôm nữa anh thanh toán cho,Step2_Hẹn thanh toán
+ có tiền thanh toán ngay,Step2_Hẹn thanh toán
+ khi nào có thanh toán được không,Step2_Hẹn thanh toán
+ khi nào có thì chuyển,Step2_Hẹn thanh toán
+ cuối tháng nhé,Step2_Hẹn thanh toán
+ để mấy hôm nữa nhé,Step2_Hẹn thanh toán
+ có lương thì chuyển,Step2_Hẹn thanh toán
+ có lương sẽ thanh toán,Step2_Hẹn thanh toán
+ Vài bữa nữa thanh toán nhé,Step2_Hẹn thanh toán
+ Vài bữa nữa chuyển nhé,Step2_Hẹn thanh toán
+ Thanh toán sau,Step2_Hẹn thanh toán
+ chuyển khoản sau nhé,Step2_Hẹn thanh toán
+ anh chuyển khoản sau nhé,Step2_Hẹn thanh toán
+ vài hôm nữa anh mới thanh toán được nhé,Step2_Hẹn thanh toán
+ chưa có tiền,Step2_Hẹn thanh toán
+ cuối tuần thanh toán,Step2_Hẹn thanh toán
+ chưa có thời gian,Step2_Hẹn thanh toán
+ khi nào rảnh thì đóng tiền,Step2_Hẹn thanh toán
+ vài bữa đóng tiền nha,Step2_Hẹn thanh toán
+ tháng sau được không,Step2_Hẹn thanh toán
+ anh gửi người nhà đóng rồi,Step2_Hẹn thanh toán
+ từ từ đóng tiền nha,Step2_Hẹn thanh toán
+ từ từ thanh toán nha,Step2_Hẹn thanh toán
+ có lương thanh toán,Step2_Hẹn thanh toán
+ ờ đúng rồi,Step1_2_Đúng KH_người thân
+ ừ anh nghe đây,Step1_2_Đúng KH_người thân
+ ừ mình đang nghe,Step1_2_Đúng KH_người thân
+ ừ chị nghe đây,Step1_2_Đúng KH_người thân
+ em cứ nói đi,Step1_2_Đúng KH_người thân
+ có biết em nói đi,Step1_2_Đúng KH_người thân
+ ừ mình biết sao thế,Step1_2_Đúng KH_người thân
+ ừ anh biết nhé,Step1_2_Đúng KH_người thân
+ ừ chị biết nhé,Step1_2_Đúng KH_người thân
+ ừ có biết,Step1_2_Đúng KH_người thân
+ có nha,Step1_2_Đúng KH_người thân
+ có mình biết,Step1_2_Đúng KH_người thân
+ bạn mình,Step1_2_Đúng KH_người thân
+ người yêu,Step1_2_Đúng KH_người thân
+ biết chứ,Step1_2_Đúng KH_người thân
+ có gì em nói đi,Step1_2_Đúng KH_người thân
+ sao thế?,Step1_2_Đúng KH_người thân
+ mình có biết,Step1_2_Đúng KH_người thân
+ anh có biết,Step1_2_Đúng KH_người thân
+ chị có biết,Step1_2_Đúng KH_người thân
+ có chị biết,Step1_2_Đúng KH_người thân
+ ừ biết có việc gì thế,Step1_2_Đúng KH_người thân
+ có em nói đi,Step1_2_Đúng KH_người thân
+ mình biết,Step1_2_Đúng KH_người thân
+ tôi biết,Step1_2_Đúng KH_người thân
+ của tôi,Step1_2_Đúng KH_người thân
+ bạn của tôi,Step1_2_Đúng KH_người thân
+ đúng nha,Step1_2_Đúng KH_người thân
+ đúng người rồi đấy,Step1_2_Đúng KH_người thân
+ chính xác rồi,Step1_2_Đúng KH_người thân
+ chuẩn,Step1_2_Đúng KH_người thân
+ chuẩn rồi em,Step1_2_Đúng KH_người thân
+ đúng nhé,Step1_2_Đúng KH_người thân
+ đúng rồi nhé,Step1_2_Đúng KH_người thân
+ đúng rồi nha,Step1_2_Đúng KH_người thân
+ đúng rồi đấy,Step1_2_Đúng KH_người thân
+ chị đây có việc gì thế?,Step1_2_Đúng KH_người thân
+ mình đây sao thế,Step1_2_Đúng KH_người thân
+ ừ mình biết,Step1_2_Đúng KH_người thân
+ tôi có biết,Step1_2_Đúng KH_người thân
+ tớ biết,Step1_2_Đúng KH_người thân
+ có biết,Step1_2_Đúng KH_người thân
+ ừ tớ đây,Step1_2_Đúng KH_người thân
+ ờm tôi đây,Step1_2_Đúng KH_người thân
+ chị đây,Step1_2_Đúng KH_người thân
+ anh đây,Step1_2_Đúng KH_người thân
+ biết nè,Step1_2_Đúng KH_người thân
+ có nhé,Step1_2_Đúng KH_người thân
+ ừ tớ biết,Step1_2_Đúng KH_người thân
+ ừ mình đây,Step1_2_Đúng KH_người thân
+ ừa mình đây có chuyện gì không vậy ạ,Step1_2_Đúng KH_người thân
+ có chuyện gì không bạn mình đây,Step1_2_Đúng KH_người thân
+ Có gì nói đi,Step1_2_Đúng KH_người thân
+ Ừ có gì không?,Step1_2_Đúng KH_người thân
+ tôi đây,Step1_2_Đúng KH_người thân
+ Có,Step1_2_Đúng KH_người thân
+ ừ tôi biết,Step1_2_Đúng KH_người thân
+ có gì nhắn lại đi,Step1_2_Đúng KH_người thân
+ Ừ tự gọi nói đi,Step1_2_Đúng KH_người thân
+ có gì nhắn lại cho,Step1_2_Đúng KH_người thân
+ để nhắn lại cho,Step1_2_Đúng KH_người thân
+ Để tôi nhắn lại,Step1_2_Đúng KH_người thân
+ người thân của tôi,Step1_2_Đúng KH_người thân
+ À có,Step1_2_Đúng KH_người thân
+ có biết em,Step1_2_Đúng KH_người thân
+ đúng mình đây,Step1_2_Đúng KH_người thân
+ anh đây em,Step1_2_Đúng KH_người thân
+ ừ chị đây,Step1_2_Đúng KH_người thân
+ có chuyện gì hả em,Step1_2_Đúng KH_người thân
+ ừa chị đây có chuyện gì em,Step1_2_Đúng KH_người thân
+ đúng rồi em ơi,Step1_2_Đúng KH_người thân
+ ừ anh đây em,Step1_2_Đúng KH_người thân
+ ừ anh đây,Step1_2_Đúng KH_người thân
+ đúng anh đây em,Step1_2_Đúng KH_người thân
+ ừ đúng chị đây em,Step1_2_Đúng KH_người thân
+ ừ,Step1_2_Đúng KH_người thân
+ ừa,Step1_2_Đúng KH_người thân
+ ừa em,Step1_2_Đúng KH_người thân
+ ờ,Step1_2_Đúng KH_người thân
+ ờ anh đây em,Step1_2_Đúng KH_người thân
+ ừm anh đây em ơi,Step1_2_Đúng KH_người thân
+ Chuẩn rồi,Step1_2_Đúng KH_người thân
+ Chính xác ạ,Step1_2_Đúng KH_người thân
+ Đúng rồi ạ,Step1_2_Đúng KH_người thân
+ Dạ đúng rồi,Step1_2_Đúng KH_người thân
+ Dạ vâng,Step1_2_Đúng KH_người thân
+ Ừ tôi đây,Step1_2_Đúng KH_người thân
+ Đúng ạ,Step1_2_Đúng KH_người thân
+ Đúng rồi,Step1_2_Đúng KH_người thân
+ ok em,Step1_2_Đúng KH_người thân
+ có em,Step1_2_Đúng KH_người thân
+ đúng em,Step1_2_Đúng KH_người thân
+ ừ em,Step1_2_Đúng KH_người thân
+ Đúng rồi em,Step1_2_Đúng KH_người thân
+ Chính xác rồi em,Step1_2_Đúng KH_người thân
+ là anh đây em,Step1_2_Đúng KH_người thân
+ là chị đây em,Step1_2_Đúng KH_người thân
+ Có gì không em,Step1_2_Đúng KH_người thân
+ nói đi em,Step1_2_Đúng KH_người thân
+ ừ có việc gì,Step1_2_Đúng KH_người thân
+ ừ nói đi em,Step1_2_Đúng KH_người thân
+" đang bận, nói nhanh đi",Step1_2_Đúng KH_người thân
+ Để chạy ra thanh toán luôn,Step2_Đồng ý thanh toán
+ Ok em. Bận quá nên ngân hàng có thể qua thu giúp được không?,Step2_Đồng ý thanh toán
+ Nhắn số tài khoản và số tiền qua giúp do mất thẻ rồi nha,Step2_Đồng ý thanh toán
+ Ô kê em. Tài khoản có tiền mà không trích,Step2_Đồng ý thanh toán
+ Gửi số tài khoản để thanh toán,Step2_Đồng ý thanh toán
+ Đồng ý,Step2_Đồng ý thanh toán
+ Ô kê nha,Step2_Đồng ý thanh toán
+ Ô kê em ơi,Step2_Đồng ý thanh toán
+ Được em nhé,Step2_Đồng ý thanh toán
+ Được em ơi,Step2_Đồng ý thanh toán
+ Vâng được ạ,Step2_Đồng ý thanh toán
+ Ô kê em,Step2_Đồng ý thanh toán
+ Ô kê ạ,Step2_Đồng ý thanh toán
+ Ô kê chị,Step2_Đồng ý thanh toán
+ Ok ạ,Step2_Đồng ý thanh toán
+ Được ạ,Step2_Đồng ý thanh toán
+ Để thanh toán luôn,Step2_Đồng ý thanh toán
+" Ừ, chốc nữa thanh toán luôn",Step2_Đồng ý thanh toán
+ Được nhé,Step2_Đồng ý thanh toán
+" Giờ đang bận, chút nữa thanh toán nhé",Step2_Đồng ý thanh toán
+ Lát nữa thanh toán nhé,Step2_Đồng ý thanh toán
+ Thanh toán luôn,Step2_Đồng ý thanh toán
+ Ừ mai thanh toán,Step2_Đồng ý thanh toán
+ để qua nộp tiền,Step2_Đồng ý thanh toán
+ Để thanh toán,Step2_Đồng ý thanh toán
+ Okay em nhé,Step2_Đồng ý thanh toán
+ ok em,Step2_Đồng ý thanh toán
+ biết rồi,Step2_Đồng ý thanh toán
+" cảm ơn em, để thanh toán nhé",Step2_Đồng ý thanh toán
+ thanh toán liền,Step2_Đồng ý thanh toán
+ sẽ thanh toán đúng hạn nha,Step2_Đồng ý thanh toán
+" Chưa đến ngày mà sao mới nhận tin nhắn rồi gọi nhắc nữa vậy em, đến hạn chị thanh toán nha",Step2_Đồng ý thanh toán
+ Được rồi sẽ ghé ngân hàng thanh toán,Step2_Đồng ý thanh toán
+ để chuyển khoản,Step2_Đồng ý thanh toán
+" Cái thẻ tín dụng phải không, để xử lý",Step2_Đồng ý thanh toán
