@@ -4,9 +4,8 @@ import numpy as np
 from sklearn.metrics import pairwise_distances
 from collections import Counter
 from sklearn.cluster import DBSCAN
-from sentenceEmbedding import SentenceEmbedding
+from sentenceEmbedding import SentenceEmbedding,cosin
 import re
-
 
 class ITER_DBSCAN(DBSCAN):
     """
@@ -69,8 +68,13 @@ class ITER_DBSCAN(DBSCAN):
         cluster_id = 0
         for i in range(self.max_iteration):
             features = np.array(df.loc[df.labels == -1]['features'].values.tolist())
+            # distance_matrix = cosin(features, features).cpu().numpy()
+            # print(distance_matrix.shape,type(distance_matrix),min(distance_matrix))            
+            # features = np.array(df.loc[df.labels == -1]['features'].values.tolist())
             distance_matrix = pairwise_distances(features, metric='cosine')
-
+            # print(distance_matrix.shape,type(distance_matrix),min(distance_matrix))            
+            
+            # print('--------')
             if 5 > len(features): break
             cluster_labels = DBSCAN(eps=self.initial_distance, min_samples=self.initial_minimum_samples,
                                     metric='precomputed')

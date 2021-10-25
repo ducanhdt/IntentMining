@@ -1,4 +1,4 @@
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, util
 
 class SentenceEmbedding(object):
     """docstring for SentenceEmbedding"""
@@ -19,4 +19,5 @@ class SentenceEmbedding(object):
 obj = SentenceEmbedding()
 def getEmbeddings(data):
     return obj.embed(data)
-    
+def cosin(embeddings1, embeddings2):
+    return util.pytorch_cos_sim(embeddings1, embeddings2)

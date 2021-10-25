@@ -44,9 +44,9 @@ def generate_parameters_hdbscan():
 
 def generate_parameters_iter_dbscan():
     param_grid = {
-        "distance": [0.09, 0.12, 0.3],
-        "max_iteration": list(range(10, 15)),
-        "minimum_samples": list(range(8, 20))
+        "distance": [0.03, 0.15, 0.3],
+        "max_iteration": list(range(10, 20, 3)),
+        "minimum_samples": list(range(8, 20,3))
     }
     keys, values = zip(*param_grid.items())
     all_parameters = []
@@ -125,11 +125,11 @@ if __name__ == '__main__':
     # corpus_lists = {'Airlines', 'AskUbuntuCorpus', 'ChatbotCorpus', 'WebApplicationsCorpus',
     #                'FinanceData', 'ATIS', 'PersonalAssistant'}
     corpus_lists = [
-        # "61139b4729ef9b70788ff84c", # : TEST DATA - VCB Cũ
-        # "6114ca6f8c9d2ad4f57802b3", # : TLA
+        "61139b4729ef9b70788ff84c", # : TEST DATA - VCB Cũ
+        "6114ca6f8c9d2ad4f57802b3", # : TLA
         "6114cb708c9d2ac9d278345a", # : VCB mới
-        # "6113a52429ef9bd2aa9086db", # : TEST DATA - POC VIETINBANK
-        # "6113a30e29ef9bfc53907c6b", # : TEST DATA - VOICE BOT BIG
+        "6113a52429ef9bd2aa9086db", # : TEST DATA - POC VIETINBANK
+        "6113a30e29ef9bfc53907c6b", # : TEST DATA - VOICE BOT BIG
         "6113a71729ef9b297690a5b3", # : TEST DATA - VOICEBOT Sacombank
 ]
 

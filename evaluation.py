@@ -122,7 +122,7 @@ class EvaluateDataset(object):
             else:
                 noise_count += 1
 
-        return noise_count, total/len(purities)
+        return noise_count, total/len(purities) if purities else 0
 
     """Propagating labels to the nearby points
     """
@@ -180,9 +180,10 @@ class EvaluateDataset(object):
                 self.label_propagation()
                 per_labelled = round(len(self.df.loc[self.df.cluster_ids != 'None']) / len(self.df) * 100, 2)
                 num_clusters = len(list(set(self.df.loc[self.df.cluster_ids != 'None']['cluster_ids'].values.tolist())))
+                max_cluster = max(list(self.df.loc[self.df.cluster_ids != 'None'].groupby('cluster_ids').count()[self.target_column]))
                 true_intent = self.df[self.target_column].values.tolist()
                 predicted_intent = self.df['predictedIntent'].values.tolist()
-                # h_score = round(metrics.homogeneity_score(true_intent, predicted_intent), 2)
+                # h_score = round(metrics.homogeneity_score(true_intent, predicted_intent),b 2)
                 # c_score = round(metrics.completeness_score(true_intent, predicted_intent), 2)
                 # nmf = round(metrics.normalized_mutual_info_score(true_intent, predicted_intent), 2)
                 # amf = round(metrics.adjusted_mutual_info_score(true_intent, predicted_intent), 2)
@@ -205,6 +206,7 @@ class EvaluateDataset(object):
                 param['percentage_labelled'] = per_labelled
                 param['clusters'] = num_clusters
                 param['noisy_clusters'] = noise_count
+                param['max_cluster'] = max_cluster
                 param['true_label_ratio'] = purity
                 # param['homogeneity_score'] = h_score
                 # param['completeness_score'] = c_score
